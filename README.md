@@ -7,7 +7,10 @@ https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/b
 
 # SAM Usage
 > [!Important]
-> Ensure you have AWS SAM cli installed
+> Ensure you have AWS SAM cli, node installed
+> ensure you have run `aws configure` and have your access key, secret key and region setup
 
+* `tsc` -- compile typescript code
 * `sam build` -- build your deployable package
+* `sam locla invoke` -- test locally before deploying
 * `sam deploy` -- deploy cloudformation stack to AWS

@@ -1,0 +1,6 @@
+{
+  "name": "llrt-aws-sam-example",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
+}
